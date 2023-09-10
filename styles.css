@@ -1,0 +1,86 @@
+
+/* Name: Samantha Major
+   Last Changed: 9/07/23
+   
+   Color Codes:
+   Light Blue - #8BBACC
+   Dark Blue - #0F709E
+   Light Pink - #FCE7E4
+   Dark Pink - #D99E9E
+*/
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header {
+    background-color: #8BBACC;
+    text-align: right;
+    padding: 25px 100px 75px 100px;
+  }
+
+  nav {
+    font-family: 'Unna', serif;
+    font-size: 28px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8BBACC;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #D99E9E;
+  }
+
+  h1 {
+    color: #0F709E;
+    padding-left: 300px;
+    font-size: 80px;
+    font-family: 'Kaushan Script', cursive;
+  }
+
+  h3 {
+    color: #D99E9E;
+    padding-left: 280px;
+    font-size: 50px;
+    font-family: 'Unna', serif;
+  }
+
+  p {
+    padding-top: 60px;
+  }
+
+  #rocket {
+      float: right;
+      width: 550px;
+      padding-right: 200px;
+  }
+
+footer {
+    background-color: #FCE7E4;
+    text-align: left;
+    padding: 25px 30px 75px 30px;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 2.5rem;
+  }
