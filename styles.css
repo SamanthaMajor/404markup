@@ -86,7 +86,7 @@ footer {
 
 /* Media query for medium-sized screens */
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     header {
         text-align: center;
         padding: 25px 5% 50px 5%;
