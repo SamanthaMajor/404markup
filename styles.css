@@ -9,78 +9,176 @@
    Dark Pink - #D99E9E
 */
 
+/* Base styles for larger screens */
+
 body {
     background-color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 header {
     background-color: #8BBACC;
     text-align: right;
-    padding: 25px 100px 75px 100px;
-  }
+    padding: 25px 10% 75px 10%;
+}
 
-  nav {
+nav {
     font-family: 'Unna', serif;
     font-size: 28px;
-  }
+}
 
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #8BBACC;
-  }
-  
-  li {
+}
+
+li {
     float: right;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
-  li a:hover {
+li a:hover {
     background-color: #D99E9E;
-  }
+}
 
-  h1 {
+h1 {
     color: #0F709E;
-    padding-left: 300px;
-    font-size: 80px;
+    padding-left: 20%;
+    font-size: 5vw;
     font-family: 'Kaushan Script', cursive;
-  }
+}
 
-  h3 {
+h3 {
     color: #D99E9E;
-    padding-left: 280px;
-    font-size: 50px;
+    padding-left: 20%;
+    font-size: 3vw;
     font-family: 'Unna', serif;
-  }
+}
 
-  p {
-    padding-top: 60px;
-  }
-
-  #rocket {
-      float: right;
-      width: 550px;
-      padding-right: 200px;
-  }
+#rocket {
+    float: right;
+    width: 550px;
+    max-width: 350%;
+}
 
 footer {
     background-color: #FCE7E4;
     text-align: left;
-    padding: 25px 30px 75px 30px;
     position: absolute;
     bottom: 0;
-    width:100%;
-    height: 2.5rem;
-  }
+    width: 100vw;
+    height: 1.5rem;
+    padding: 25px 10% 75px 10%;
+}
+
+
+/* Media query for medium-sized screens */
+
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+        padding: 25px 5% 50px 5%;
+    }
+
+    nav {
+        font-family: 'Unna', serif;
+        font-size: 20px;
+    }
+
+    li {
+        float: right;
+    }
+
+    h1 {
+        padding-left: 5%;
+        padding-top: 18%;
+        font-size: 6vw;
+    }
+
+    h3 {
+        padding-left: 5%;
+        font-size: 4vw;
+    }
+
+    #rocket {
+        float: right;
+        width: 60%;
+        padding-right: 0;
+    }
+
+    footer {
+        text-align: left;
+    }
+}
+
+/* Media query for small screens */
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 5% 30px 5%;
+    }
+
+    nav {
+        font-family: 'Unna', serif;
+        font-size: 18px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #8BBACC;
+    }
+    
+    li {
+        float: right;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #D99E9E;
+    }
+
+    h1 {
+        padding-left: 21%;
+        font-size: 10vw;
+    }
+
+    h3 {
+        padding-left: 21%;
+        font-size: 7vw;
+    }
+
+    #rocket {
+        width: 100%;
+        float: center;
+        padding-left: 5%;
+    }
+
+    footer {
+        text-align: left;
+        position: absolute;
+        height: 2rem;
+        padding: 15px 5% 40px 4%;
+    }
+}
